@@ -61,7 +61,7 @@ export default function Sankey() {
   let linkSort;
   let nodes = defaultNodes;
   let links = defaultLinks;
-  let iterations = 6;
+  let iterations = 32;
   let maxPaddedSpace = 2 / 3; // Defined as a fraction of the total available space
 
   function sankey() {
